@@ -10,10 +10,11 @@ mkdir vendor # dale los permisos necesarios
 
 composer install
 
-#cuando ya se hayan instalado las dependencias  ve a la carpeta 
-#app/providers/ViewComposerServiceProvider.php y comenta temporalmente el bloque de
-#código que esta dentro de la función boot
-#luego ejecuta
+### cuando ya se hayan instalado las dependencias  ve a la carpeta 
+
+### app/providers/ViewComposerServiceProvider.php y comenta temporalmente el bloque de
+
+### código que esta dentro de la función boot luego ejecuta
 
 php artisan migrate --seed
 #listo descomenta el bloque anterior dentro de función boot
