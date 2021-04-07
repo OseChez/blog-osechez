@@ -17,8 +17,8 @@ composer install
 ### código que esta dentro de la función boot luego ejecuta
 
 php artisan migrate --seed
-#listo descomenta el bloque anterior dentro de función boot
-#y empieza a hackear el sistema
-#ejecuta
+#### listo descomenta el bloque anterior dentro de función boot
+
+#### y empieza a hackear el sistema ejecuta
 
 php artisan ser
