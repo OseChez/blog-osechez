@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reproductor video</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/reproductor.css">
+ 
+</head>
+
+<body>
+<div id="app" class="container">
+  <!-- es una forma sencilla y práctica de crear un prototipo 
+    de reproductor de video en Vue 2.x, pues no necesitamos npm
+  solo un archivo .html, un js, un css y el script de vue 2.6.x  -->
+ <section id="reproductor">
+  <h2>{{ title }}</h2>
+  <video-component></video-component>
+  <button-play-component></button-play-component>
+  <progressbar-component></progressbar-component>
+  <div style="clear: both"></div> 
+ </section>
+</div>
+<script src="js/vue.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+/*
+ Los estilos para el prototipo de reproductor de video en Vue
+*/
+#barra{ 
+    position: relative; 
+    float: left; 
+    width: 620px; 
+    height: 16px; 
+    padding: 2px; 
+    border: 1px solid #CCCCCC; 
+    background: #EEEEEE; 
+   }
+body{ 
+    text-align: center; 
+   } 
+   header, section, footer, aside, nav, article, figure, figcaption, 
+    hgroup{ 
+    display : block; 
+   }
+   #botones{ 
+    float: left; 
+    width: 100px; 
+    height: 20px; 
+   } 
+   nav{ 
+    margin: 5px 0px; 
+   } 
+   
+   #progreso{ 
+    position: absolute; 
+    width: 0px; 
+    height: 16px; 
+    background: rgba(0,0,150,.2); 
+   }
+   #reproductor{ 
+    width: 740px; 
+    margin: 20px auto; 
+    padding: 5px; 
+    background: url('http:/tiendas.com/videos/img/shinyFrame.png'); 
+    border: 1px solid #666666; 
+    border-radius: 5px; 
+   } 
+   #reproducir{
+    background:url('http:/tiendas.com/videos/img/shinyFrame.png');
+    border-image:url('http:/tiendas.com/videos/img/shinyFrame.png') 10 100 10 10 repeat stretch;
+    border-radius:7px;
+    color:rgb(29, 30, 37);
+    font-size: 0.9rem;
+    font-weight: bold;
+   }
+  
+      
