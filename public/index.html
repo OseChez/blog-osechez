@@ -5,23 +5,38 @@
   <title>Reproductor video</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="css/reproductor.css">
- 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- scrpts js-->
+  <script src="js/vue.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+    .jumbotron {
+      background-color: #323e4a;
+      border-radius: 0.3rem;
+      color: coral;
+      font-size: 12em;
+      margin-bottom: 2rem;
+      padding: 2rem 1rem;
+      text-align: center;
+  }
+  .form-control{
+    font-size: 1.765rem;
+    margin: auto;
+    width: 145px;
+  }
+  </style>
 </head>
 
 <body>
-<div id="app" class="container">
-  <!-- es una forma sencilla y práctica de crear un prototipo 
-    de reproductor de video en Vue 2.x, pues no necesitamos npm
-  solo un archivo .html, un js, un css y el script de vue 2.6.x  -->
- <section id="reproductor">
-  <h2>{{ title }}</h2>
-  <video-component></video-component>
-  <button-play-component></button-play-component>
-  <progressbar-component></progressbar-component>
-  <div style="clear: both"></div> 
- </section>
-</div>
-<script src="js/vue.js"></script>
-<script src="js/script.js"></script>
+  <div id="app">
+    <!--  -->
+  <section id="wrapper">
+    <h2 style="text-align: center;">{{ title }}</h2>
+    <text-component></text-component>
+    <div style="clear: both"></div> 
+  </section>
+  </div>
+  
+  <script src="js/script.js"></script>
 </body>
 </html>
